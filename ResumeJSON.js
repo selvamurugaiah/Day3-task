@@ -1,0 +1,123 @@
+//1.create your own resume for JSON format
+var resume = {
+    "name": "SELVAM M",
+    "label": "Design Engineer",
+    "email": "selvamurugaiah100@gmail.com",
+    "phone":"+91-8122371359",
+    "SUMMARY": ["Aiming to be a unique part of an organization through my updated knowledge, skills in Design & Analysis",
+"and do the smart work for the consistent growth of the company."],
+    "LOCATION": {
+      "address": "2/164 South street, kakkanallur",
+      "postalCode": "627418",
+      "city": "Ambasamudram",
+      "District":"Tirunelveli",
+      "State":"Tamilnadu",
+     
+    },
+  
+  "PROFILE SNAPSHOT ": {
+    "A goal-oriented and dedicated professional with over three years of commendable success in":["Product Design & Development","Effective Analysis","Business Excellence","Reporting & Documentation","Team Management" ]
+    
+  },
+  "EDUCATION": {
+    "institution": "Anna University",
+    "college":"Dr.Sivanthi Aditanar college of Engineering",
+    "Degree": "BE",
+    "Duration": "2015-2019",
+    "cgpa": "7.8",
+    
+  },
+  "SOFTWARE PROFICIENCY": {
+    "➢ Drafting Software ": "Auto CAD 2018",
+    "➢ Modelling Software ": "Autodesk Inventor, Space Gass 12.6, Catia V5, Unigraphics NX",
+    "➢ Analyzing Software ": "Ansys work bench, Nastran",
+  },
+  "CERTIFICATES": {
+    "silambam": "in state level",
+    "date": "10-7-2006",
+    "kabadi":"in zonal level"
+  },
+  "SKILLS": {
+    "name": "Drafting Software and Modelling software ",
+    "keywords":[
+      "Autodesk Inventor,",
+      "Catia V5,",
+      "Ansys work bench,"
+    ]
+  },
+  "LANGUAGES": {
+    "language": "Tamil , English",
+  },
+  "INTEREST": {
+    "name": "Watching movie",
+    "keywords": 
+      "based on true storeies",
+    
+  },
+  "REFERENCE": [{
+    "name": "selvam",
+    "reference": "parmasivan",
+    "phone":"+91-7708991995",
+  }],
+};
+console.log(resume);
+
+//output
+/*
+{
+  name: 'SELVAM M',
+  label: 'Design Engineer',
+  email: 'selvamurugaiah100@gmail.com',
+  phone: '+91-8122371359',
+  SUMMARY: [
+    'Aiming to be a unique part of an organization through my updated knowledge, skills in Design & Analysis',
+    'and do the smart work for the consistent growth of the company.'
+  ],
+  LOCATION: {
+    address: '2/164 South street, kakkanallur',
+    postalCode: '627418',
+    city: 'Ambasamudram',
+    District: 'Tirunelveli',
+    State: 'Tamilnadu'
+  },
+  'PROFILE SNAPSHOT ': {
+    'A goal-oriented and dedicated professional with over three years of commendable success in': [
+      'Product Design & Development',
+      'Effective Analysis',
+      'Business Excellence',
+      'Reporting & Documentation',
+      'Team Management'
+    ]
+  },
+  EDUCATION: {
+    institution: 'Anna University',
+    college: 'Dr.Sivanthi Aditanar college of Engineering',
+    Degree: 'BE',
+    Duration: '2015-2019',
+    cgpa: '7.8'
+  },
+  'SOFTWARE PROFICIENCY': {
+    '➢ Drafting Software ': 'Auto CAD 2018',
+    '➢ Modelling Software ': 'Autodesk Inventor, Space Gass 12.6, Catia V5, Unigraphics NX',
+    '➢ Analyzing Software ': 'Ansys work bench, Nastran'
+  },
+  CERTIFICATES: {
+    silambam: 'in state level',
+    date: '10-7-2006',
+    kabadi: 'in zonal level'
+  },
+  SKILLS: {
+    name: 'Drafting Software and Modelling software ',
+    keywords: [ 'Autodesk Inventor,', 'Catia V5,', 'Ansys work bench,' ]
+  },
+  LANGUAGES: { language: 'Tamil , English' },
+  INTEREST: { name: 'Watching movie', keywords: 'based on true storeies' },
+  REFERENCE: [
+    {
+      name: 'selvam',
+      reference: 'parmasivan',
+      phone: '+91-7708991995'
+    }
+  ]
+}
+*/
