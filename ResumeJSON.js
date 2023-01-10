@@ -54,11 +54,11 @@ var resume = {
       "based on true storeies",
     
   },
-  "REFERENCE": [{
+  "REFERENCE": {
     "name": "selvam",
     "reference": "parmasivan",
     "phone":"+91-7708991995",
-  }],
+  },
 };
 console.log(resume);
 
